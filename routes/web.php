@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Auth;
 Route::prefix('site')->group(function() {
     Auth::routes();
     Route::get('/', 'Auth\LoginController@showLoginForm');
-
+    Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
     Route::middleware(['auth', 'unblocked'])->prefix('dashboard')->namespace('Dashboard')->group(function () {
         /**
          * Load
