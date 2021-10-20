@@ -1,0 +1,7 @@
+name: hilados
+recipe: laravel
+config:
+  webroot: public
+  php: 7.4
+  via: nginx
+  database: 'mysql:8.0'

@@ -1,0 +1,61 @@
+form .row{
+    margin-bottom: 10px;
+}
+
+.select2-selection__rendered{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 13px !important;
+}
+
+.select2 {
+    width:100%!important;
+    max-width: 100%;
+}
+
+@media (max-width:630px) {
+
+    .progress{
+        display: none !important;
+    }
+
+
+    .bs-wizard .bs-wizard-step {
+        height: 60px;
+        width: 60px;
+    }
+
+    .bs-wizard .bs-wizard-step .bs-wizard-info{
+        margin-top: 60px !important;
+        display: none;
+    }
+}
+
+
+@media (max-width:420px) {
+    .bs-wizard .bs-wizard-step > .bs-wizard-dot{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .progress{
+        display: none !important;
+    }
+
+    .bs-wizard .bs-wizard-step > .bs-wizard-dot > div{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .bs-wizard .bs-wizard-step > .bs-wizard-dot > div > i{
+        font-size: 16px !important;
+    }
+
+    .bs-wizard .bs-wizard-step .bs-wizard-info{
+        margin-top: 60px !important;
+        display: none;
+    }
+}
